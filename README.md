@@ -1,4 +1,4 @@
-# ChatApplication
+# Chat Application
 
 A PHP native Web Application for real time chit chat.
 
