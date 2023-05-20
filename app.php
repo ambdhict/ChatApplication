@@ -3,7 +3,10 @@
     use Ratchet\Server\IoServer;
     use Ratchet\Http\HttpServer;
     use Ratchet\WebSocket\WsServer;
-    use MyApp\Socket;
+    // old
+    // use MyApp\Socket;
+    // new when deployed to server
+    use MyApp\Socket\socket.php;
 
     require dirname( __FILE__ ) . '/vendor/autoload.php';
 
